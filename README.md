@@ -20,7 +20,7 @@ Passe o mouse sobre os cards que estão mostrando a resposta de uma determinada 
 
 ![hover_effects](/video/showing_hover_effects.png)
 
-## :rocket: · Linguagens / Frameworks
+## :rocket: Linguagens / Frameworks
 
 - Python
 - HTML
