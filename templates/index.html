@@ -1,0 +1,32 @@
+{% extends 'template.html' %}
+
+
+{% block style %}
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+{% endblock %}
+
+
+{% block content %}
+    <div class="title">
+        <h1>Informe os valores</h1>
+        <h3>Para calcular a equação do segundo grau</h3>
+    </div>
+    <div class="container">
+        <form action="/calcular" method="POST">
+            <label for="A">
+                <span>A</span>
+                <input type="number" name="a" required>
+            </label>
+            <label for="B">
+                <span>B</span>
+                <input type="number" name="b" required>
+            </label>
+            <label for="C">
+                <span>C</span>
+                <input type="number" name="c" required>
+            </label>
+            <!-- Enviar formulário -->
+            <input type="submit" value="Calcular">
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,44 @@
+{% for i in range(1, 3) %}
+<div class='card' style='--color: var(--color_raiz);'>
+    <div class="left"></div>
+    <div class='content'>
+        <div class='icon'>
+            <ion-icon name='checkbox'></ion-icon>
+        </div>
+        <div class='text'>
+            {% if i == 1 %}
+                <h3>Primeira Raiz</h3>
+                <p>
+                    <i class="fa-solid fa-x"></i>
+                    <i class="fa-solid fa-1" style="font-size: 10px;"></i> = {{ dados.raiz['X1'] }}
+                </p>
+            {% endif %}
+            {% if i == 2 %}
+                <h3>Segunda Raiz</h3>
+                <p>
+                    <i class="fa-solid fa-x"></i>
+                    <i class="fa-solid fa-2" style="font-size: 10px;"></i> = {{ dados.raiz['X2'] }}
+                </p>
+            {% endif %}            
+        </div>
+    </div>
+    <div class="resolution">
+        <div class='textr'>
+            <h3>Resolução 
+                <i class="fa-solid fa-x"></i> 
+                <i class="fa-solid fa-{{ i }}" style="font-size: 10px;"></i>
+            </h3>
+            {% if i == 1 %}                
+                <div class="resp">
+                    {% include "partials/conta/conta_x1.html" %}
+                </div>
+            {% endif %}
+            {% if i == 2 %}
+                <div class="resp">
+                    {% include "partials/conta/conta_x2.html" %}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endfor %}
