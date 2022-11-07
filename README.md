@@ -6,8 +6,8 @@ Retire suas dúvidas verificando a resolução da equação do segundo grau!
 | -------------  | --- |
 | :sparkles: Nome        | **Equação do Segundo Grau**
 | :label: Tecnologias | python, html, css
-| :rocket: URL         | -
-| :fire: Desafio     | -
+| :rocket: URL         | https://url-deploy.com.br
+| :fire: Desafio     | https://url-do-desafio.com.br
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![resolution_with_2_results](video/resolution_with_2_results.png?text=exemplo-resultado-com-duas-raizes#vitrinedev)
