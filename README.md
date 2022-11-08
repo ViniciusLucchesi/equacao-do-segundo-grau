@@ -10,7 +10,7 @@ Retire suas dúvidas verificando a resolução da equação do segundo grau!
 | :fire: Desafio     | https://url-do-desafio.com.br
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![resolution_with_2_results](video/resolution_with_2_results.png?text=exemplo-resultado-com-duas-raizes#vitrinedev)
+![resolution_with_2_results](https://github.com/ViniciusLucchesi/equacao-do-segundo-grau/blob/main/video/resolution_with_2_results.png?text=exemplo-resultado-com-duas-raizes#vitrinedev)
 
 ## :bulb: Projeto
 
@@ -18,7 +18,7 @@ Se você já teve dúvida se a sua resposta para a equação do segundo grau est
 
 Passe o mouse sobre os cards que estão mostrando a resposta de uma determinada parte da conta e será apresentado a você todos os calculos que levaram ao resultado exibido pelo card.
 
-![hover_effects](/video/showing_hover_effects.png)
+![hover_effects](https://github.com/ViniciusLucchesi/equacao-do-segundo-grau/blob/main/video/showing_hover_effects.png)
 
 ## :rocket: Linguagens / Frameworks
 
