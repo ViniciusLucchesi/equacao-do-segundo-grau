@@ -10,7 +10,7 @@ Retire suas dúvidas verificando a resolução da equação do segundo grau!
 | :fire: Desafio     | https://url-do-desafio.com.br
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![resolution_with_2_results](https://github.com/ViniciusLucchesi/equacao-do-segundo-grau/blob/main/video/resolution_with_2_results.png?text=exemplo+resultado+com+duas+raizes#vitrinedev)
+![](https://github.com/ViniciusLucchesi/equacao-do-segundo-grau/blob/main/video/resolution_with_2_results.png?raw=true?text=exemplo+resultado+com+duas+raizes#vitrinedev)
 
 ## :bulb: Projeto
 
